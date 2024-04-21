@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- we first include a file which contains the docinfo element: -->
+  <xi:include href="./docinfo.ptx" />
+
+  <book xml:id="axiom-book">
+    <title>Axioms</title>
+    <subtitle>As many as I can find</subtitle>
+
+    <!-- Include frontmatter -->
+    <xi:include href="./frontmatter.ptx" />
+
+    <preface><p>Not too little, not too much</p>
+      <quote>The art of being boring is to tell everything</quote>
+    <!-- </p> -->
+    </preface>
+
+    <chapter><title>Sets</title>
+
+      <section><title>Definition</title>
+        <p>A <term>set</term> is a collection of objects, called <term>members</term> or <term>elements</term>.
+        If an element <m>x</m> is a member of a set <m>S</m>we write <m>x \in S</m> 
+        and say <m>x</m> is an element of <m>S</m> or <m>x</m> is belongs to <m>S</m> or <m>x</m> is in <m>S</m></p>
+      </section>
+
+      <section><title>Axioms</title>
+        <p>
+          <axiom><title>Extension</title>
+            <statement>
+              Two groups, <m>A</m> and <m>B</m> are equal if and only if
+              every member of A is a member of B and every member of <m>B</m> is a member of <m>A</m>
+            </statement>
+          </axiom>
+          <axiom><title>Existence</title></axiom>
+          <axiom><title>Foundation</title></axiom>
+        </p>
+      </section>
+
+      <section><title>Operations</title>
+        <introduction>For two sets <m>A</m> and <m>B</m></introduction>
+        <subsection><title>Union</title>
+          <p>The set of all elements of A and B</p>
+          <p>A set C is the union of sets A and B if it contains all elements of A and all elements of B.</p>
+        </subsection>
+        <subsection><title>Intersection</title>
+        </subsection>
+      </section>
+
+    </chapter>
+
+
+    <chapter><title>Groups</title>
+      <introduction>A group is a set with a single binary operation.</introduction>
+      <p>
+        Given a set <m>G</m> and a binary operation <m>\star</m>, a <term>group</term> <m>\ldots</m>
+      </p>
+      <section><title>Axioms</title>
+
+      </section>
+    </chapter>
+
+    <!-- Include chapters -->
+    <xi:include href="./ch-naturals.ptx" />
+
+
+    <!-- Include backmatter -->
+    <xi:include href="./backmatter.ptx" />
+
+  </book>
+</pretext>

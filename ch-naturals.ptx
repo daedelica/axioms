@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-naturals" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Peano Axioms</title>
+
+  <introduction>
+    <p> Axioms for natural numbers. Introduced in 1889 by Guiseppe Peano. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <!-- <xi:include href="sec-section-name.ptx" /> -->
+
+  <section>
+    <title><p></p>The Peano Axioms</title>
+    <ol>
+      <li>
+        <m>0</m> is a natural number
+      </li>
+      <li>For every natural number <m>n</m>, the <term>successor</term> of <m>n</m> is also a natural number.
+        We denote the successor of <m>n</m> by <m>S(n)</m>.</li>
+      <li>For every natural number <m>n, S(n) = 0</m> is false</li>
+      <li>For all natural numbers <m>m</m> and <m>n</m>, <m>S(m)=S(n)</m> if and only if <m>m=n</m>.</li>
+      <li>
+        <p>If <m>K</m> is a set of natural numbers, such that
+        <ul>
+          <li>
+            <m>0</m> is in <m>K</m>, and
+          </li>
+          <li>for every natural number <m>n</m>, if <m>n \in K</m> then <m>S(n) \in K</m>
+          </li>
+        </ul>
+        then <m>K</m> contains every natural number.
+        </p>
+      </li>
+    </ol>
+  </section>
+
+</chapter>
